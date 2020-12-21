@@ -1,0 +1,36 @@
+$colors: (
+  pink: hsl(322, 100%, 66%),
+  very-pale-cyan: hsl(193, 100%, 96%),
+  very-dark-cyan: hsl(192, 100%, 9%),
+  grayish-blue: hsl(208, 11%, 55%),
+);
+
+$box-shadow-btn: -.3rem .3rem 1rem hsla(209, 11%, 55%, 0.35);
+
+@function color($color) {
+    @return map-get($colors, $color);
+}
+
+@mixin flex($just,$align) {
+    display: flex;
+    justify-content: $just;
+    align-items: $align;
+}
+
+@mixin idealFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@import "./section1";
