@@ -9,7 +9,20 @@ html {
   font-size: 62.5%;
 }
 
+h2 {
+  font-size: 3.6rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+p,
+a {
+  font-size: 1.8rem;
+}
+
 section.section1 {
+  z-index: 2;
+  background-color: #ebfbff;
   padding: 4.8rem 8rem 0;
   position: relative;
   height: 100vh;
@@ -67,9 +80,8 @@ header .btn {
 header .btn a {
   text-decoration: none;
   color: #00252e;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
-  font-size: 1.8rem;
 }
 
 .bottom-part {
@@ -79,28 +91,25 @@ header .btn a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
+  margin-top: 6.1rem;
 }
 
 .bottom-part .text-section1 {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 50rem;
-          flex: 1 1 50rem;
+  width: 50rem;
 }
 
 .bottom-part .image-section1 {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 50rem;
-          flex: 1 1 50rem;
+  width: 70rem;
 }
 
 .bottom-part .image-section1 img {
-  width: 100%;
+  width: 70rem;
 }
 /*# sourceMappingURL=styles.css.map */
