@@ -10,9 +10,13 @@ html {
 }
 
 h2 {
-  font-size: 3.6rem;
+  font-size: 3.78rem;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+}
+
+h3 {
+  font-size: 2.7rem;
 }
 
 p {
@@ -27,7 +31,7 @@ a {
 }
 
 p,
-a {
+a, li {
   font-size: 1.8rem;
 }
 
@@ -127,6 +131,11 @@ header .btn a {
   width: 50rem;
 }
 
+.bottom-part .text-section1 h2,
+.bottom-part .text-section1 p {
+  color: #00252e;
+}
+
 .bottom-part .text-section1 .link {
   background-color: #ff52bf;
   height: 5.6rem;
@@ -155,5 +164,68 @@ header .btn a {
 
 .bottom-part .image-section1 img {
   width: 70rem;
+}
+
+main {
+  padding: 16rem 8rem;
+}
+
+.flex-divs {
+  border-radius: 0.8rem;
+  padding: 5.5rem 4rem 5.5rem 11.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  height: 44rem;
+  -webkit-box-shadow: 0rem 0rem 1rem rgba(128, 141, 153, 0.4);
+          box-shadow: 0rem 0rem 1rem rgba(128, 141, 153, 0.4);
+}
+
+.flex-divs .flex-text {
+  width: 50rem;
+}
+
+.flex-divs .flex-text h3 {
+  padding-bottom: 1rem;
+  font-family: "Poppins", sans-serif;
+  color: #00252e;
+}
+
+.flex-divs .flex-text p {
+  color: #808d99;
+}
+
+.flex-divs .flex-img {
+  width: 50rem;
+  height: 100%;
+}
+
+.flex-divs .flex-img img {
+  height: 100%;
+}
+
+.flowing {
+  margin: 4rem 0;
+}
+
+.flowing .flex-text {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.flowing .flex-img {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
 }
 /*# sourceMappingURL=styles.css.map */
