@@ -34,10 +34,7 @@ header {
     background-color: white;
     @include idealFlex;
     a {
-      text-decoration: none;
       color: color(very-dark-cyan);
-      font-family: "Open Sans", sans-serif;
-      font-weight: 700;
     }
   }
 }
@@ -47,7 +44,21 @@ header {
   flex-flow: row wrap;
   margin-top: 6.1rem;
   .text-section1 {
+    @include flex(space-between, flex-start);
+    flex-direction: column;
+    padding: 10rem 2rem 10rem 0;
     width: 50rem;
+    .link {
+      background-color: color(pink-h);
+      height: 5.6rem;
+      border-radius: 3rem;
+      box-shadow: $box-shadow-btn;
+      width: 28rem;
+      @include idealFlex;
+      a {
+        color: white;
+      }
+    }
   }
   .image-section1 {
     width: 70rem;

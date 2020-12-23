@@ -1,5 +1,5 @@
 $colors: (
-  pink: hsl(322, 100%, 66%),
+  pink-h: hsl(322, 100%, 66%),
   very-pale-cyan: hsl(193, 100%, 96%),
   very-dark-cyan: hsl(192, 100%, 9%),
   grayish-blue: hsl(208, 11%, 55%),
@@ -37,6 +37,17 @@ h2 {
   font-size: 2 * 1.8rem;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
 }
 
 p,
