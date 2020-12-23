@@ -1,0 +1,40 @@
+footer {
+  color: white;
+  margin-top: 18.4rem;
+  background-color: color(very-dark-cyan);
+  padding: 18rem 8rem 6rem;
+  position: relative;
+}
+
+.cta {
+  border-radius: 1rem;
+  padding: 5.2rem;
+  width: 80rem;
+  height: 28rem;
+  position: absolute;
+  top: -18.4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  @include flex(space-between, center);
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0rem 0rem 1rem hsla(209, 11%, 55%, 0.4);
+  h2 {
+    font-size: 1.75 * 1.8rem;
+  }
+}
+
+.link2 {
+  box-shadow: $box-shadow-btn;
+  cursor: pointer;
+  width: 40rem;
+  height: 8rem;
+  background-color: color(pink-h);
+  border-radius: 4rem;
+  @include idealFlex;
+
+  a {
+    color: white;
+    font-size: 2rem;
+  }
+}
