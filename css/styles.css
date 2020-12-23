@@ -19,9 +19,14 @@ h3 {
   font-size: 2.7rem;
 }
 
-p {
+p, li {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 2rem;
 }
 
 a {
@@ -239,6 +244,7 @@ footer {
 }
 
 .cta {
+  color: #00252e;
   border-radius: 1rem;
   padding: 5.2rem;
   width: 80rem;
@@ -292,5 +298,101 @@ footer {
 .link2 a {
   color: white;
   font-size: 2rem;
+}
+
+.footer-logo {
+  width: 24rem;
+  position: relative;
+  right: 12px;
+}
+
+.copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.copyright p {
+  display: inline;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem 0;
+}
+
+.footer-main-item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 300px;
+          flex: 1 1 300px;
+}
+
+.contact .contact-image {
+  float: left;
+  position: relative;
+  top: 5px;
+}
+
+.contact .contact-text {
+  margin-left: 4rem;
+}
+
+.phone-number {
+  margin: 2rem 0;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.social .social-links {
+  width: 3.1rem;
+  height: 3.1rem;
+  border-radius: 50%;
+  margin-right: 12px;
+  border: 1px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social .social-links i {
+  font-size: 1.7rem;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -43,9 +43,14 @@ h3 {
   font-size: 1.5* 1.8rem;
 }
 
-p {
+p,li {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 2rem;
 }
 
 a {
@@ -62,3 +67,4 @@ a,li {
 @import "./section1";
 @import "./main";
 @import "./footer";
+@import "./footer-main";

@@ -7,6 +7,7 @@ footer {
 }
 
 .cta {
+  color: color(very-dark-cyan);
   border-radius: 1rem;
   padding: 5.2rem;
   width: 80rem;
@@ -36,5 +37,20 @@ footer {
   a {
     color: white;
     font-size: 2rem;
+  }
+}
+
+.footer-logo {
+    width: 24rem;
+    position: relative;
+    right: 12px;
+}
+
+.copyright {
+    @include flex(flex-end,center);
+  p {
+      display: inline;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
   }
 }
