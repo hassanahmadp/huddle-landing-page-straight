@@ -50,6 +50,15 @@ main {
       text-align: center;
       margin: 5rem;
       width: 100%;
+      h3 {
+        padding-bottom: 1rem;
+        font-family: "Poppins", sans-serif;
+        color: color(very-dark-cyan);
+      }
+      p {
+        width: 100%;
+        color: color(grayish-blue);
+      }
     }
 
     .flex-img {
@@ -61,8 +70,9 @@ main {
       }
     }
   }
-  
-  .grow,.users {
+
+  .grow,
+  .users {
     margin: 4rem 0;
     .flex-text {
       order: 2;

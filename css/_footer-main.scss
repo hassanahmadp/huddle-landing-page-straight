@@ -1,7 +1,7 @@
 .footer-main {
   display: flex;
   padding: 2rem 0;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .footer-main-item {
@@ -31,11 +31,11 @@
   }
   .list-items {
     display: inline-block;
-    padding-bottom: .2rem;
-    border-bottom: .2rem solid transparent;
-    transition: .2s ease-in-out;
+    padding-bottom: 0.2rem;
+    border-bottom: 0.2rem solid transparent;
+    transition: 0.2s ease-in-out;
     &:hover {
-      border-bottom: .2rem solid white;
+      border-bottom: 0.2rem solid white;
     }
   }
 }
@@ -55,6 +55,32 @@
     &:hover {
       color: color(pink-h);
       border: 1px solid color(pink-h);
+    }
+  }
+}
+
+@media (max-width: 702px) {
+  .contact {
+    .contact-text {
+      margin-left: 5rem;
+      line-height: 3.5rem;
+    }
+  }
+
+  .footer-main {
+    flex-flow: row wrap;
+  }
+
+  .menu {
+    margin-top: 8rem;
+    display: block;
+  }
+
+  .social {
+    margin-top: 5rem;
+    .social-links {
+      margin: 1.5rem;
+      transform: scale(1.3);
     }
   }
 }

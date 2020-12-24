@@ -22,6 +22,7 @@ section.section1 {
 
 header {
   @include flex(space-between, center);
+
   .logo {
     width: auto;
     height: 2 * 1.95rem;
@@ -79,7 +80,7 @@ header {
 
 @media (max-width: 1087px) {
   section.section1 {
-    padding: 4.8rem 8rem 0;
+    padding: 4.8rem 10% 0;
     height: auto;
   }
 
@@ -98,7 +99,7 @@ header {
         display: block;
       }
       p {
-        margin: 2rem 0;
+        margin: 2.5rem 0 3rem;
       }
       h2 {
         width: 100%;
@@ -113,6 +114,29 @@ header {
       img {
         width: 100%;
       }
+    }
+  }
+}
+
+@media (max-width: 384px) {
+  header {
+    .logo {
+      width: auto;
+      height: 2 * 1.95rem*.75;
+    }
+    .btn {
+      cursor: pointer;
+      box-shadow: $box-shadow-btn;
+      height: 4.8rem*.75;
+      width: 20rem*.75;
+      border-radius: 2.5rem;
+      background-color: white;
+      @include idealFlex;
+      a {
+        color: color(very-dark-cyan);
+      }
+
+      @include hoverBTN;
     }
   }
 }

@@ -56,3 +56,24 @@ footer {
     font-family: "Poppins", sans-serif;
   }
 }
+
+@media (max-width: 1087px) {
+  .cta {
+    padding: 5.2rem 0;
+    width: 90%;
+  }
+
+  .copyright {
+    @include idealFlex;
+  }
+}
+
+@media (max-width: 378px) {
+  .cta {
+    padding: 5.2rem 0;
+    width: 90%;
+    h2 {
+      font-size: 1.4 * 1.8rem;
+    }
+  }
+}
