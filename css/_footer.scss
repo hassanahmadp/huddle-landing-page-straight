@@ -52,6 +52,7 @@ footer {
   @include flex(flex-end, center);
   p {
     display: inline;
+    white-space: nowrap;
     text-align: left;
     font-family: "Poppins", sans-serif;
   }
