@@ -19,7 +19,8 @@ h3 {
   font-size: 2.7rem;
 }
 
-p, li {
+p,
+li {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
@@ -36,7 +37,8 @@ a {
 }
 
 p,
-a, li {
+a,
+li {
   font-size: 1.8rem;
 }
 
@@ -96,10 +98,16 @@ header .btn {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
 }
 
 header .btn a {
   color: #00252e;
+}
+
+header .btn:hover {
+  opacity: 0.7;
 }
 
 .bottom-part {
@@ -158,10 +166,16 @@ header .btn a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
 }
 
 .bottom-part .text-section1 .link a {
   color: white;
+}
+
+.bottom-part .text-section1 .link:hover {
+  opacity: 0.7;
 }
 
 .bottom-part .image-section1 {
@@ -293,11 +307,17 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
 }
 
 .link2 a {
   color: white;
   font-size: 2rem;
+}
+
+.link2:hover {
+  opacity: 0.7;
 }
 
 .footer-logo {
@@ -363,6 +383,34 @@ footer {
           align-items: flex-start;
 }
 
+.menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.menu .list-items {
+  display: inline-block;
+  padding-bottom: .2rem;
+  border-bottom: .2rem solid transparent;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+.menu .list-items:hover {
+  border-bottom: .2rem solid white;
+}
+
 .social {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -394,5 +442,10 @@ footer {
 
 .social .social-links i {
   font-size: 1.7rem;
+}
+
+.social .social-links:hover {
+  color: #ff52bf;
+  border: 1px solid #ff52bf;
 }
 /*# sourceMappingURL=styles.css.map */

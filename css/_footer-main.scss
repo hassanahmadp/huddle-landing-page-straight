@@ -24,6 +24,19 @@
 
 .menu {
   @include flex(space-evenly, flex-start);
+  ul {
+    @include flex(space-between, flex-start);
+    flex-direction: column;
+  }
+  .list-items {
+    display: inline-block;
+    padding-bottom: .2rem;
+    border-bottom: .2rem solid transparent;
+    transition: .2s ease-in-out;
+    &:hover {
+      border-bottom: .2rem solid white;
+    }
+  }
 }
 
 .social {
@@ -37,6 +50,10 @@
     @include idealFlex;
     i {
       font-size: 1.7rem;
+    }
+    &:hover {
+      color: color(pink-h);
+      border: 1px solid color(pink-h);
     }
   }
 }

@@ -37,6 +37,8 @@ header {
     a {
       color: color(very-dark-cyan);
     }
+
+    @include hoverBTN;
   }
 }
 
@@ -63,6 +65,8 @@ header {
       a {
         color: white;
       }
+
+      @include hoverBTN;
     }
   }
   .image-section1 {

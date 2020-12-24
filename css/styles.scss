@@ -23,6 +23,13 @@ $box-shadow-btn: -0.3rem 0.3rem 1rem hsla(209, 11%, 55%, 0.35);
   align-items: center;
 }
 
+@mixin hoverBTN {
+  transition: .2s ease-in-out;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -40,10 +47,11 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5* 1.8rem;
+  font-size: 1.5 * 1.8rem;
 }
 
-p,li {
+p,
+li {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
@@ -60,7 +68,8 @@ a {
 }
 
 p,
-a,li {
+a,
+li {
   font-size: 1.8rem;
 }
 

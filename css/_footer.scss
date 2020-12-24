@@ -38,18 +38,20 @@ footer {
     color: white;
     font-size: 2rem;
   }
+
+  @include hoverBTN;
 }
 
 .footer-logo {
-    width: 24rem;
-    position: relative;
-    right: 12px;
+  width: 24rem;
+  position: relative;
+  right: 12px;
 }
 
 .copyright {
-    @include flex(flex-end,center);
+  @include flex(flex-end, center);
   p {
-      display: inline;
+    display: inline;
     text-align: left;
     font-family: "Poppins", sans-serif;
   }
