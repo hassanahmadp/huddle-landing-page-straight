@@ -41,3 +41,34 @@ main {
     order: 1;
   }
 }
+
+@media (max-width: 1087px) {
+  .flex-divs {
+    padding: 5.5rem 4rem;
+    height: auto;
+    .flex-text {
+      text-align: center;
+      margin: 5rem;
+      width: 100%;
+    }
+
+    .flex-img {
+      max-width: 50rem;
+      margin: 0 auto;
+      img {
+        height: auto;
+        width: 100%;
+      }
+    }
+  }
+  
+  .grow,.users {
+    margin: 4rem 0;
+    .flex-text {
+      order: 2;
+    }
+    .flex-img {
+      order: 1;
+    }
+  }
+}

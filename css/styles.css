@@ -321,6 +321,39 @@ main {
           order: 1;
 }
 
+@media (max-width: 1087px) {
+  .flex-divs {
+    padding: 5.5rem 4rem;
+    height: auto;
+  }
+  .flex-divs .flex-text {
+    text-align: center;
+    margin: 5rem;
+    width: 100%;
+  }
+  .flex-divs .flex-img {
+    max-width: 50rem;
+    margin: 0 auto;
+  }
+  .flex-divs .flex-img img {
+    height: auto;
+    width: 100%;
+  }
+  .grow, .users {
+    margin: 4rem 0;
+  }
+  .grow .flex-text, .users .flex-text {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .grow .flex-img, .users .flex-img {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+}
+
 footer {
   color: white;
   margin-top: 18.4rem;
